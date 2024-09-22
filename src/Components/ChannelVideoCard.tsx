@@ -9,7 +9,7 @@ function ChannelVideoCard({ item }: { item: HomeVideoCardType }) {
                 {/* thumbnail */}
                 <div className="relative ">
                     <div className="absolute sm:bottom-2 bottom-1 sm:right-2 right-1 sm:text-sm text-[14px] bg-[#0c0c0cd0] px-2 py-0.5 rounded">{item.videoDuration}</div>
-                    <img src={item.videoThumbnail} className="bg-red-300 object-cover aspect-[16/9] rounded" alt="" />
+                    <img src={item.videoThumbnail} className="bg-neutral-900 object-cover aspect-[16/9] rounded" alt="" />
                 </div>
                 {/* title */}
                 <div className="flex flex-col gap-1 mt-1">

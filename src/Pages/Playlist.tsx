@@ -43,7 +43,7 @@ function Playlist() {
                 <div className="row row-cols-2 bg-neutral-900 md:p-5 p-3 rounded-xl">
                     {/* image */}
                     <div className="col-md-4 col-12">
-                        <img src={playListInfo?.thumbnail} className="aspect-[16/9] object-cover mx-auto bg-red-200" alt="" />
+                        <img src={playListInfo?.thumbnail} className="aspect-[16/9] object-cover mx-auto bg-neutral-900" alt="" />
                     </div>
                     {/*details */}
                     <div className="col-md-8 col-12 flex flex-col gap-2">

@@ -75,7 +75,7 @@ function Watch() {
             <div className="row">
                 <div className="col-xl-8 col-lg-7">
                     <iframe
-                        className="w-full aspect-[16/9] bg-red-400"
+                        className="w-full aspect-[16/9] bg-neutral-900"
                         src={`https://www.youtube.com/embed/${details?.videoId}?autoplay=1`}
                         title='Youtube video player'
                         allow='autoplay; picture-inpicture;'
